@@ -157,6 +157,8 @@ function clearApplication() {
     document.getElementById("inputLoanPurpose").value = "";
     document.getElementById("inputLoanAmount").value = "";
 
+    console.log("Hallo")
+
     hideValidators();
 }
 

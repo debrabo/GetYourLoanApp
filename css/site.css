@@ -26,7 +26,7 @@ textarea{
 }
 
 .btn-primary {
-    color: #fff;
+    color: #ffffff;
     background-color: #1b6ec2;
     border-color: #1861ac;
 }
@@ -93,5 +93,4 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-
 }

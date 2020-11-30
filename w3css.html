@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>W3.CSS Loan App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="css/application.css"/>
+</head>
+<body>
+    <header class="w3-container w3-blue-gray">
+        <h1>Loan Applications</h1>
+    </header>
+
+    <div class="w3-container">
+        <h2>Apply to get a loan!</h2>
+        <hr/>
+        <div class="w3-container w3-card-4 w3-light-grey">
+            <h2>Select Application</h2>
+            <p><select id="applications" class="w3-select w3-border" onchange="loadApplication()"></select></p>
+        </div>
+        <hr/>
+        <form class="w3-container w3-card-4 w3-light-grey">
+            <h2>Details</h2>
+            <p>
+                <label>Full name and title</label>
+                <input class="w3-input w3-border" id="inputName" name="inputName" type="text">
+            </p>
+            <p>
+                <label>Date of birth</label>
+                <input class="w3-input w3-border" id="inputDateOfBirth" name="inputDateOfBirth" type="date">
+            </p>
+            <p>
+                <label>Annual income</label>
+                <input class="w3-input w3-border" id="inputAnnualIncome" name="inputAnnualIncome" type="number" min="0" step="0.01">
+            </p>
+        </form>
+
+    </div>
+</body>
+<script src="scripts/utils.js"></script>
+<script src="scripts/data.js"></script>
+<script src="scripts/application.js"></script>
+</html>
